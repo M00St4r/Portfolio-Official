@@ -11,7 +11,7 @@ window.addEventListener("load", function (_event) {
         window.location.href = "Portfolio-Official/projectPages/Project1";
     });
     project1text === null || project1text === void 0 ? void 0 : project1text.addEventListener("click", function (_event) {
-        window.location.href = "Portfolio-Official/projectPages/Project1";
+        window.location.href = "https://m00st4r.github.io/Portfolio-Official/projectPages/Project1";
     });
     project2 === null || project2 === void 0 ? void 0 : project2.addEventListener("click", function (_event) {
         alert("clicked on project 2");
