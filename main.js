@@ -8,10 +8,10 @@ window.addEventListener("load", function (_event) {
     var project4 = document.querySelector(".item7");
     var project4text = document.querySelector(".item8");
     project1 === null || project1 === void 0 ? void 0 : project1.addEventListener("click", function (_event) {
-        alert("clicked on project 1");
+        window.location.href = "/projectPages/Project1";
     });
     project1text === null || project1text === void 0 ? void 0 : project1text.addEventListener("click", function (_event) {
-        alert("clicked on project 1");
+        window.location.href = "/projectPages/Project1";
     });
     project2 === null || project2 === void 0 ? void 0 : project2.addEventListener("click", function (_event) {
         alert("clicked on project 2");

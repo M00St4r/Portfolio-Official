@@ -9,10 +9,10 @@ window.addEventListener("load", _event => {
     let project4text = document.querySelector(".item8");
     
     project1?.addEventListener("click", _event => {
-        alert("clicked on project 1");
+        window.location.href = "/projectPages/Project1";
     });
     project1text?.addEventListener("click", _event => {
-        alert("clicked on project 1");
+        window.location.href = "/projectPages/Project1";
     });
 
     project2?.addEventListener("click", _event => {
